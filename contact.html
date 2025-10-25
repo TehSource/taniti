@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Plan Your Visit • Taniti Tourism</title>
+	<link rel="stylesheet" href="css/styles.css" />
+	<script src="js/app.js" defer></script>
+</head>
+<body>
+	<a class="skip-link" href="#main">Skip to content</a>
+	<header class="site-header">
+		<button class="hamburger" id="menuToggle" aria-controls="siteNav" aria-expanded="false" aria-label="Open navigation"><span></span><span></span><span></span></button>
+		<div class="brand"><a href="index.html">Taniti Tourism</a></div>
+		<nav id="siteNav" class="site-nav" aria-label="Primary">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="lodging.html">Lodging</a></li>
+				<li><a href="dining.html">Dining</a></li>
+				<li><a href="attractions.html">Attractions</a></li>
+				<li><a href="transportation.html">Getting Around</a></li>
+				<li><a href="faq.html">FAQ</a></li>
+				<li><a class="cta" href="contact.html" aria-current="page">Plan Your Visit</a></li>
+			</ul>
+		</nav>
+		<div id="backdrop" class="backdrop" hidden></div>
+	</header>
+
+	<main id="main" class="section">
+		<div class="container">
+			<nav class="breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a> › Plan Your Visit</nav>
+			<h1>Plan Your Visit</h1>
+			<div class="placeholder h-160" role="img" aria-label="Plan your trip"></div>
+			<p>Tell us what you’d like to see and we’ll help you make the most of Taniti.</p>
+
+			<h2>Contact</h2>
+			<section class="form-card" aria-label="Contact form">
+				<form action="#" method="post">
+					<input type="text" name="name" placeholder="Full name" autocomplete="name" required />
+					<input type="email" name="email" placeholder="Email address" autocomplete="email" required />
+					<input type="tel" name="phone" placeholder="Phone (optional)" autocomplete="tel" />
+					<input type="text" name="topic" placeholder="Trip topic (e.g., Lodging, Dining)" />
+					<textarea name="message" placeholder="Tell us about your plans..." required></textarea>
+					<button class="btn" type="submit">Submit</button>
+				</form>
+			</section>
+		</div>
+	</main>
+
+	<footer class="site-footer">
+		<div class="container">
+			<div class="center">
+				<p>&copy; 2025 Taniti Tourism</p>
+				<nav aria-label="Social media">
+					<a href="#" aria-label="Facebook" title="Facebook" style="display:inline-block;margin:0 .4rem">
+						<svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+							<path d="M22 12.06C22 6.55 17.52 2 12.06 2 6.55 2 2 6.55 2 12.06 2 17.02 5.66 21.11 10.37 22v-7.02H7.9v-2.92h2.47V9.48c0-2.44 1.45-3.79 3.67-3.79 1.06 0 2.18.19 2.18.19v2.41h-1.23c-1.21 0-1.59.75-1.59 1.52v1.82h2.71l-.43 2.92h-2.28V22C18.34 21.11 22 17.02 22 12.06z"/>
+						</svg>
+					</a>
+					<a href="#" aria-label="Instagram" title="Instagram" style="display:inline-block;margin:0 .4rem">
+						<svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+							<path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5a5.5 5.5 0 1 1 0 11.001 5.5 5.5 0 0 1 0-11zM18 6.5a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+							<circle cx="12" cy="12" r="3.5"/>
+						</svg>
+					</a>
+					<a href="#" aria-label="X" title="X" style="display:inline-block;margin:0 .4rem">
+						<svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none">
+							<path d="M4 4l16 16M20 4L4 20" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+						</svg>
+					</a>
+				</nav>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
